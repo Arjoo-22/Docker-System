@@ -10,8 +10,8 @@ module.exports = {
       // const results = await Product.find({}, { name: 1, price: 1, _id: 0 });
       // const results = await Product.find({ price: 699 }, {});
       res.send(results);
-    } catch (error) {
-      console.log(error.message);
+    } catch(error){
+      next(error)
     }
   },
 
