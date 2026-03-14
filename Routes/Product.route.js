@@ -1,3 +1,4 @@
+// updated routes for docker deployment
 const express = require('express');
 const router = express.Router();
 
@@ -19,3 +20,4 @@ router.patch('/:id', ProductController.updateAProduct);
 router.delete('/:id', ProductController.deleteAProduct);
 
 module.exports = router;
+
