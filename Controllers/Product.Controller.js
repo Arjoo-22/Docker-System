@@ -1,3 +1,4 @@
+//this is COntroller file for Product model, it will have all the functions related to product model like create, update, delete, find etc
 const createError = require('http-errors');
 const mongoose = require('mongoose');
 
