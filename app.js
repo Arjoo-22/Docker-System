@@ -1,3 +1,4 @@
+//this is a app file which is the entry point of our application. It will initialize the express app, set up middleware, define routes, and handle errors.
 const express = require('express');
 const createError = require('http-errors');
 const dotenv = require('dotenv').config();
