@@ -1,3 +1,4 @@
+//initDB.js - This file is responsible for initializing the connection to the MongoDB database using Mongoose. It handles connection events and ensures that the application can gracefully handle termination signals.
 const mongoose = require('mongoose');
 
 module.exports = () => {
